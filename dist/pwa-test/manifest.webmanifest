@@ -8,9 +8,9 @@
   "start_url": "./",
   "icons": [
     {
-      "src": "assets/test2.svg",
+      "src": "assets/test.png",
       "sizes": "512x512",
-      "type": "image/svg",
+      "type": "image/png",
       "purpose": "maskable any"
     }
   ]
