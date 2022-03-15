@@ -9,7 +9,7 @@
   "icons": [
     {
       "src": "assets/test2.svg",
-      "sizes": "512x512",
+      "sizes": "any",
       "type": "image/png",
       "purpose": "maskable any"
     }
