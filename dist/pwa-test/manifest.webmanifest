@@ -10,7 +10,7 @@
     {
       "src": "assets/test2.svg",
       "sizes": "any",
-      "type": "image/png",
+      "type": "image/svg",
       "purpose": "maskable any"
     }
   ]
