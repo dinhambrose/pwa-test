@@ -11,7 +11,7 @@
       "src": "assets/test2.svg",
       "sizes": "any",
       "type": "image/svg+xml",
-      "purpose": "maskable any"
+      "purpose": "maskable any monochrome"
     }
   ]
 }
