@@ -1,7 +1,7 @@
 <svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
     @media (prefers-color-scheme: dark) {
-    .a { fill: #f0f0f0}
+    .a { fill: #ff0000}
     }
   </style>
   <g transform="scale(10)">
