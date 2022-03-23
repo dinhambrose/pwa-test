@@ -1,17 +1,22 @@
-import { Component } from '@angular/core';
-import { DomSanitizer } from '@angular/platform-browser';
+import { Component, OnInit } from '@angular/core';
+import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-    constructor(public sanitizer: DomSanitizer) {}
+export class AppComponent implements OnInit {
+    constructor(public sanitizer: DomSanitizer) {
+    }
+
+    ngOnInit(): void {
+      this.inc()
+    }
 
   title = 'pwa-test';
 
-  index = 0;
+  index = -1;
   srcs = [
     "https://demo.ipconfigure.com",
     "https://orchid.ipconfigure.com",
@@ -25,11 +30,12 @@ export class AppComponent {
     '',
   ]
 
-  url: any =  '';
+  url?: SafeResourceUrl;
 
   inc() {
-    this.index = (this.index + 1) % this.srcs.length
-    this.url = this.sanitizer.bypassSecurityTrustResourceUrl(this.srcs[this.index])
+    this.index = (this.index + 1) % this.srcs.length;
+    (document.querySelector('iframe') as any).src = this.srcs[this.index]
+    console.log('here', this.srcs[this.index], document.querySelector('iframe'), (document.querySelector('iframe') as any).src)
     document.body.style.backgroundColor = this.colors[this.index]
   }
 }

@@ -9,11 +9,11 @@
     <img [src]="srcs[index]" (click)="index = (index+1) % srcs.length">
 </div> -->
 
-<iframe [src]="url"
+<iframe
 frameborder="0" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%"
 ></iframe>
 
-<div (click)="index = (index + 1) % srcs.length"
+<div (click)="inc()"
 style="position:fixed; top:100px; right:0; font-size: 5px; opacity: 0.25;"
 >
     sekrit
