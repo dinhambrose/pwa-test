@@ -5,6 +5,16 @@
 <img src="/assets/test.svg">
 
 <img src="/assets/test2.svg"> -->
-<div>
+<!-- <div>
     <img [src]="srcs[index]" (click)="index = (index+1) % srcs.length">
+</div> -->
+
+<iframe [src]="url"
+frameborder="0" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%"
+></iframe>
+
+<div (click)="index = (index + 1) % srcs.length"
+style="position:fixed; top:100px; right:0; font-size: 5px; opacity: 0.25;"
+>
+    sekrit
 </div>

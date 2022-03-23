@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
@@ -6,13 +7,19 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+    constructor(public sanitizer: DomSanitizer) {}
+
   title = 'pwa-test';
 
   index = 0;
   srcs = [
-    `/assets/orchid.png`,
-    `/assets/fusion.png`,
-    `/assets/alto.png`,
-    `/assets/hybrid.png`
+    "https://demo.ipconfigure.com",
+    "https://orchid.ipconfigure.com",
+    "https://orchid-burn-linux-bravo.ipconfigure.com",
+    "https://orchid-burn-linux-bravo.ipconfigure.com:8080"
   ]
+
+  get url() {
+    return this.sanitizer.bypassSecurityTrustResourceUrl(this.srcs[this.index])
+  }
 }
