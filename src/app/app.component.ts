@@ -18,8 +18,18 @@ export class AppComponent {
     "https://orchid-burn-linux-bravo.ipconfigure.com",
     "https://orchid-burn-linux-bravo.ipconfigure.com:8080"
   ]
+  colors = [
+    '#8a3b9',
+    '#0f719f',
+    '#016c4e',
+    '',
+  ]
 
-  get url() {
-    return this.sanitizer.bypassSecurityTrustResourceUrl(this.srcs[this.index])
+  url: any =  '';
+
+  inc() {
+    this.index = (this.index + 1) % this.srcs.length
+    this.url = this.sanitizer.bypassSecurityTrustResourceUrl(this.srcs[this.index])
+    document.body.style.backgroundColor = this.colors[this.index]
   }
 }
