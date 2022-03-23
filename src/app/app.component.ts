@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pwa-test';
+
+  index = 0;
+  srcs = [
+    `/assets/orchid.png`,
+    `/assets/fusion.png`,
+    `/assets/alto.png`,
+    `/assets/hybrid.png`
+  ]
 }

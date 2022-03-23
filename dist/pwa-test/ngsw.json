@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1648059583637,
+  "timestamp": 1648061328616,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,11 +13,14 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.5135b24e0a6ebd20f526.js",
+        "/main.1bc28896d0747651920f.js",
         "/manifest.webmanifest",
+        "/ngsw-worker.js",
         "/polyfills.1ecb5c115640e3ae5770.js",
         "/runtime.2f386600ff6f675f4fb7.js",
-        "/styles.0b200a5a20c4130e1b8a.css"
+        "/safety-worker.js",
+        "/styles.0b200a5a20c4130e1b8a.css",
+        "/worker-basic.min.js"
       ],
       "patterns": []
     },
@@ -29,6 +32,8 @@
         "ignoreVary": true
       },
       "urls": [
+        "/assets/alto.png",
+        "/assets/fusion.png",
         "/assets/hybrid.png",
         "/assets/icons/icon-128x128.png",
         "/assets/icons/icon-144x144.png",
@@ -50,6 +55,8 @@
   ],
   "dataGroups": [],
   "hashTable": {
+    "/assets/alto.png": "fa0510be117260e7150826afa9e930063a8e9463",
+    "/assets/fusion.png": "a0f2210017e8a6a08578a2f1d6f3c64b501cb7b8",
     "/assets/hybrid.png": "ca5a464fa16dab7373be90e13ac2bc0e37792875",
     "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
@@ -66,12 +73,15 @@
     "/assets/test2.svg": "0c8dc9326e00bae5e2658b01bc9737356aef3a17",
     "/assets/test3.png": "73fed54225dc6e17e4ff4973105ec5368baad4bd",
     "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "51bb2dd4984bcb22d81834cd74dbda658236a5b6",
-    "/main.5135b24e0a6ebd20f526.js": "c4d9ae6b7a88e3ba8751af12a935754831e13a5c",
+    "/index.html": "ff7d62618085abd54ed4a29cac1eee470e6f2e1c",
+    "/main.1bc28896d0747651920f.js": "141ad33635a873596db8b2c5990d006b98de7629",
     "/manifest.webmanifest": "841e4300001dd8b7c38a480ae9d26e561b58d7ad",
+    "/ngsw-worker.js": "930b912d998f1d645c786351330262fe81673a21",
     "/polyfills.1ecb5c115640e3ae5770.js": "1b6ce3ab77586f41f0025cad49b39dbf4e0ac94c",
     "/runtime.2f386600ff6f675f4fb7.js": "f6110aaa413c9160942bb422ea29479cf4dc60b3",
-    "/styles.0b200a5a20c4130e1b8a.css": "f510cda71b5fd1eab0cd956f4d169e9608b70c5f"
+    "/safety-worker.js": "70914dc203fa1f881e56f2b794d7a4f9c48ee745",
+    "/styles.0b200a5a20c4130e1b8a.css": "f510cda71b5fd1eab0cd956f4d169e9608b70c5f",
+    "/worker-basic.min.js": "70914dc203fa1f881e56f2b794d7a4f9c48ee745"
   },
   "navigationUrls": [
     {
