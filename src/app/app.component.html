@@ -6,5 +6,5 @@
 
 <img src="/assets/test2.svg"> -->
 <div>
-    <img [src]="srcs[index]" (click)="index = index+1">
+    <img [src]="srcs[index]" (click)="index = (index+1) % srcs.length">
 </div>
