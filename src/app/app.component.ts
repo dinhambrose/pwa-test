@@ -19,13 +19,13 @@ export class AppComponent implements OnInit {
     "https://demo.ipconfigure.com",
     "https://orchid.ipconfigure.com",
     "https://orchid-burn-linux-bravo.ipconfigure.com",
-    "https://orchid-burn-linux-bravo.ipconfigure.com:8080"
+    "http://192.168.202.25:8080"
   ]
   colors = [
     '#8a3b96',
     '#0f719f',
     '#016c4e',
-    '',
+    '#e11a50',
   ]
 
   url?: SafeResourceUrl;
