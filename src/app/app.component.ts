@@ -1,15 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
+  // encapsulation: ViewEncapsulation.None
 })
 export class AppComponent implements OnInit {
-    constructor(public sanitizer: DomSanitizer) {
-    }
-
     ngOnInit(): void {
       this.inc()
     }
@@ -24,7 +22,7 @@ export class AppComponent implements OnInit {
     "https://orchid-burn-linux-bravo.ipconfigure.com:8080"
   ]
   colors = [
-    '#8a3b9',
+    '#8a3b96',
     '#0f719f',
     '#016c4e',
     '',
@@ -35,7 +33,9 @@ export class AppComponent implements OnInit {
   inc() {
     this.index = (this.index + 1) % this.srcs.length;
     (document.querySelector('iframe') as any).src = this.srcs[this.index]
+
     console.log('here', this.srcs[this.index], document.querySelector('iframe'), (document.querySelector('iframe') as any).src)
     document.body.style.backgroundColor = this.colors[this.index]
+    console.log(document.body.style.backgroundColor)
   }
 }
