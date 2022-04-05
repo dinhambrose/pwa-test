@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1649182112060,
+  "timestamp": 1649182345377,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -34,6 +34,7 @@
       "urls": [
         "/assets/Monochrome.png",
         "/assets/alto.png",
+        "/assets/dark.png",
         "/assets/fusion.png",
         "/assets/hybrid.png",
         "/assets/icons/icon-128x128.png",
@@ -61,6 +62,7 @@
   "hashTable": {
     "/assets/Monochrome.png": "892b5777c9c5aaa63840d89ee3a7167237e0b180",
     "/assets/alto.png": "fa0510be117260e7150826afa9e930063a8e9463",
+    "/assets/dark.png": "15602ac0d647c0a1137a04d45aea5c19dd03ad68",
     "/assets/fusion.png": "a0f2210017e8a6a08578a2f1d6f3c64b501cb7b8",
     "/assets/hybrid.png": "ca5a464fa16dab7373be90e13ac2bc0e37792875",
     "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
