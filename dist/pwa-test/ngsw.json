@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1649182670864,
+  "timestamp": 1649182872266,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -35,6 +35,7 @@
         "/assets/Monochrome.png",
         "/assets/alto.png",
         "/assets/dark.png",
+        "/assets/dark_logo.svg",
         "/assets/fusion.png",
         "/assets/hybrid.png",
         "/assets/icon.svg",
@@ -64,6 +65,7 @@
     "/assets/Monochrome.png": "892b5777c9c5aaa63840d89ee3a7167237e0b180",
     "/assets/alto.png": "fa0510be117260e7150826afa9e930063a8e9463",
     "/assets/dark.png": "15602ac0d647c0a1137a04d45aea5c19dd03ad68",
+    "/assets/dark_logo.svg": "75b2890848760a4bdc4f8db6a7b069ce0696af83",
     "/assets/fusion.png": "a0f2210017e8a6a08578a2f1d6f3c64b501cb7b8",
     "/assets/hybrid.png": "ca5a464fa16dab7373be90e13ac2bc0e37792875",
     "/assets/icon.svg": "d20f0b4f59b66bc197cd4e2204812c2482134273",
