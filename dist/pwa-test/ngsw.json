@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1649182872266,
+  "timestamp": 1649189675977,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -51,6 +51,7 @@
         "/assets/real.png",
         "/assets/real.svg",
         "/assets/real2.png",
+        "/assets/real3.png",
         "/assets/test.png",
         "/assets/test.svg",
         "/assets/test2.png",
@@ -81,6 +82,7 @@
     "/assets/real.png": "3991e7d254b91a5576dcae3c45f014200e6e5ae5",
     "/assets/real.svg": "75b2890848760a4bdc4f8db6a7b069ce0696af83",
     "/assets/real2.png": "3831b43ee570a3fe86b50a8cec68e9a10bfbe369",
+    "/assets/real3.png": "3831b43ee570a3fe86b50a8cec68e9a10bfbe369",
     "/assets/test.png": "3991e7d254b91a5576dcae3c45f014200e6e5ae5",
     "/assets/test.svg": "d20f0b4f59b66bc197cd4e2204812c2482134273",
     "/assets/test2.png": "8bd9d83a67160cafaa9e2fd91d01d152ace67ba2",
